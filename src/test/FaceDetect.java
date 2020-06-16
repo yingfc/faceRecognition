@@ -49,12 +49,13 @@ public class FaceDetect {
     }
 
     public static void main(String[] args) {
-        String resultjson = FaceDetect.faceDetect("/Users/yingfc/Desktop/IMG_4614.JPG");
+        String resultjson = FaceDetect.faceDetect("/Users/yingfc/Desktop/证件信息/陈颖凡.JPG");
         System.out.println(resultjson);
         JsonRootBean rootBean = GsonUtils.fromJson(resultjson, JsonRootBean.class);
-        Face_list list = rootBean.result.face_list[0];
-        System.out.println("年龄: " + list.getAge());
-        System.out.println("颜值: " + list.getBeauty());
-
+        List<Face_list> list = rootBean.result.face_list;
+        System.out.println("年龄: " + list.get(0).getAge());
+        System.out.println("颜值: " + list.get(0).getBeauty());
+        System.out.println("情绪: " + list.get(0).getEmotion().getType());
+        System.out.println("性别: " + list.get(0).getGender().getType());
     }
 }

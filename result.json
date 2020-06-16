@@ -1,0 +1,43 @@
+{
+  "error_code": 0,
+  "error_msg": "SUCCESS",
+  "log_id": 9435357510199,
+  "timestamp": 1592310182,
+  "cached": 0,
+  "result": {
+    "face_num": 1,
+    "face_list": [
+      {
+        "face_token": "5a05f411e2356e264f4e9d1f65c7423a",
+        "location": {
+          "left": 916.73,
+          "top": 917.33,
+          "width": 835,
+          "height": 810,
+          "rotation": -3
+        },
+        "face_probability": 1,
+        "angle": {
+          "yaw": 0.87,
+          "pitch": 2.7,
+          "roll": -6.16
+        },
+        "age": 22,
+        "beauty": 75.59,
+        "gender": {
+          "type": "male",
+          "probability": 1
+        },
+        "emotion": {
+          "type": "neutral",
+          "probability": 0.88
+        },
+        "mask": {
+          "type": 0,
+          "probability": 1
+        },
+        "spoofing": 0.0002114305535
+      }
+    ]
+  }
+}

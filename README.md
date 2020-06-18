@@ -5,8 +5,8 @@
 
 弹窗画面中显示人像特征
 
-BEFORE:
-https://github.com/yingfc/faceRecognition/blob/master/IMG_4614.JPG
+![BEFORE](https://github.com/yingfc/faceRecognition/blob/master/IMG_4614.JPG)
 
-AFTER:
-https://github.com/yingfc/faceRecognition/blob/master/new.jpg
+![AFTER](https://github.com/yingfc/faceRecognition/blob/master/new.jpg)
+
+yingfc@uw.edu
